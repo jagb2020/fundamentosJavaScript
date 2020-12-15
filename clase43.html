@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 43</title>
+</head>
+<body>
+    <script>
+        alert(`hola mundo`) // ; es opcional
+        
+        var edad = 28 // ; es opcional
+        
+        const saludarAJose = function () {} // ; es opcional  
+        
+        function saludar () {
+            console.log(`hola mundo`)
+        } // ; es opcional
+
+        for (var i = 0; i < 10; i++) {
+
+        } // ; es opcional
+
+        /******************************/
+        /************* ; **************/
+        /******************************/
+        // es obligatorio el ;
+        console.log(`hola mundo`);
+        // ó ;[1, 2, 3].forEach(n => console.log(n*2))
+        [1, 2, 3].forEach(n => console.log(n*2))
+
+        const nombre = `Angel`
+        console.log(`hola mi nombre es Angel`);
+        // ó ;`${nombre} es un desarrollador`
+        `${nombre} es un desarrollador`
+
+        function calcularDoble (numero) {
+            return{
+                original: numero, 
+                doble: numero * 2
+            }
+
+            /***** incorrecto ******/
+            // return // explicitamente tiene un ; al final de la linea
+            // {
+            //     original: numero, 
+            //     doble: numero * 2
+            // }
+        }
+
+    </script>
+</body>
+</html>
